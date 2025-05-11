@@ -1,3 +1,26 @@
+# Comments on existing project
+From getting started did all 3 requirements.
+
+From Bonus points :
+1. Add logical operators - search query works only with <for> and <not> keywords.
+2. Multiple file support works only if data structure is the same
+3. Log count done, is shown in beginnning of result output.
+
+From Bonus Bonus points :D 
+1. Duplicates not done.
+2. DB layer not done.
+3. Option to send alerts done.
+4. Dynamic log parsing not done.
+
+
+# How app works
+1. Run the app
+2. Provide search condition <for> or <not>
+3. provide search criteria columnName=columnSearchValue
+4. provide severity level, then you will see how many result records have the severity level provided or higher
+5. program exits.
+
+
 # Introduction 
 Create a console application what would parse a log csv file and print out logs based on a custom query. Use the attached csv file to work with.
 

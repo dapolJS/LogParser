@@ -17,10 +17,10 @@ public static class UserQuery
     public static string SearchQueryCondition()
     {
         Console.WriteLine("======== LogParser started!");
-        Console.WriteLine("Please provide condition for searching : for, not, or, and");
-        var searchCondiion = Console.ReadLine()!.ToLower();
-        Guard.CheckIfIsNullOrEmpty(searchCondiion);
-        return searchCondiion;
+        Console.WriteLine("Please provide condition for searching : <for> or <not>");
+        var searchCondition = Console.ReadLine()!.ToLower();
+        Guard.CheckIfIsNullOrEmpty(searchCondition);
+        return searchCondition;
     }
 
     public static string[] SearchQueryParsing(string searchQuery)
